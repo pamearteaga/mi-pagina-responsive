@@ -1,16 +1,11 @@
 
-*{
-
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
 
 .container {
 
 	width: 100%;
 	max-width: 1000px;
 	margin: 0 auto;
+
 
 }
 
@@ -23,9 +18,10 @@
 
 
 [class*="col-"]{
-	float: left;
+
 	min-height: 7px;
 	padding: 12px; /*gutter*/
+	display: inline-block;
 }
 
 
