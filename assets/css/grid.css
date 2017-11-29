@@ -136,8 +136,23 @@
 	  width: 100%;
 
 	}
+}
 
-	
+
+@media (max-width: 575px){
+     
+    .container {
+
+	max-width: 90%;
+
+    }
+
+	.col-3, .col-4, .col-8{
+      
+      margin-top: 30px;
+	  width: 100%;
+
+	}
 }
 
 
