@@ -77,22 +77,13 @@
   width: 100%;
 }
 
-@media all and (max-width: 450px){
-
-	[class*="col-"]{
-	   width: 100%;
-     }
-
-}
 
 
 @media (max-width: 1199px) and (min-width: 992px){
      
      .container {
 
-	width: 100%;
 	max-width: 900px;
-	margin: 0 auto;
 
     }
 
@@ -102,12 +93,52 @@
 	}
 
 	.col-3 {
-     width: 25%;
+     width: 26%;
      margin-left: 40px;
+    }
+
 }
+
+
+@media (max-width: 991px) and (min-width: 768px){
+     
+    .container {
+
+	max-width: 700px;
+
+    }
+
+
+	.col-4 {
+	  width: 31%;
+	}
+
+	.col-3 {
+     width: 24%;
+     margin-left: 20px;
+    }
+
+}
+
+/****** menu ******/
+
+@media (max-width: 767px) and (min-width: 576px){
+     
+    .container {
+
+	max-width: 90%;
+
+    }
+
+	.col-3, .col-4, .col-8{
+      
+      margin-top: 30px;
+	  width: 100%;
+
+	}
 
 	
-
 }
+
 
 
